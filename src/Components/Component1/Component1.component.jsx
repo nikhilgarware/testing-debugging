@@ -27,7 +27,7 @@ function Component1() {
   return (
     <div>
       <Space>
-        <Select style={{ width: 150 }} onChange={handleChange}>
+        <Select style={{ width: 160 }} onChange={handleChange}>
           {dummyResponse.map((item) => {
             return (
               <Option key={item.id} value={item.name}>
@@ -41,5 +41,5 @@ function Component1() {
     </div>
   );
 }
-
+// check proptype
 export default Component1;
