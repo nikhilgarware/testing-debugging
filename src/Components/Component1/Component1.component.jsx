@@ -41,5 +41,5 @@ function Component1() {
     </div>
   );
 }
-
+// check proptype
 export default Component1;
